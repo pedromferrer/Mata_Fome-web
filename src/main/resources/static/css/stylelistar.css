@@ -1,0 +1,84 @@
+    body {
+      font-family: 'Nunito', sans-serif;
+      background: #2b2b2b;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      width: 85%;
+      background: #fff;
+      padding: 25px;
+      border-radius: 16px;
+      border: 4px solid #502314;
+    }
+
+    h1 {
+      text-align: center;
+      color: #d62300;
+      font-size: 2.2rem;
+      margin-bottom: 20px;
+    }
+
+    .filter {
+      margin-bottom: 15px;
+    }
+
+    .filter input {
+      width: 98.2%;
+      padding: 12px;
+      border: 2px solid #502314;
+      border-radius: 10px;
+      font-size: 1rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+
+    table th, table td {
+      padding: 12px;
+      border-bottom: 2px solid #ffcc29;
+      text-align: left;
+      font-size: 1rem;
+    }
+
+    table th {
+      background: #d62300;
+      color: #fff;
+    }
+
+    table tr:nth-child(even) {
+      background: #fff5e1;
+    }
+
+    .actions {
+      text-align: right;
+    }
+
+    .btn {
+      background: #d62300;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 12px;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: bold;
+      transition: transform 0.2s;
+    }
+
+    .btn:hover {
+      background: #b81d00;
+      transform: scale(1.05);
+    }
+    
+    .selected {
+    background-color: #d3d3d3 !important; /* Cor de fundo para linha selecionada */
+    }

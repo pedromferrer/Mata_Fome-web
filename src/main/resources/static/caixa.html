@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Caixa - BK Style</title>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/stylecaixa.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>CAIXA</h1>
+            <div class="tables">
+                <!-- Tabela da esquerda -->
+                <div class="table-box">
+                    <input type="text" id="search" placeholder="Pesquisar produto...">
+                    <button id="btnSearch" class="btn btn-search">Buscar</button>
+                    <table id="table-produtos">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Nome</th>
+                                <th>Valor</th>
+                                <th>Qtd. Estoque</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Os produtos serão adicionados aqui pelo JavaScript -->
+                        </tbody>
+                    </table>
+                    <button id="btnAdd" class="btn btn-add">Adicionar ao Carrinho</button>
+                </div>
+
+                <!-- Tabela da direita -->
+                <div class="table-box">
+                    <h3>Carrinho</h3>
+                    <table id="table-carrinho">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Nome</th>
+                                <th>Valor</th>
+                                <th>Qtd.</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Itens adicionados pelo JavaScript -->
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="2">Total:</td>
+                                <td id="valorTotal">R$ 0,00</td>
+                                <td></td>
+                            </tr>
+                        </tfoot>
+                    </table>
+
+                    <div class="actions">
+                        <button id="btnCancel" class="btn btn-cancel">Cancelar</button>
+                        <button id="btnRemove" class="btn btn-remove">Remover</button>
+                        <button id="btnFinish" class="btn btn-finish">Finalizar</button>
+                    </div>
+                </div>
+            </div>
+            <button class="btn" onclick="window.location.href = 'index.html'">⬅ Voltar ao Menu</button>
+        </div>
+        <script src="js/scriptcaixa.js"></script>
+    </body>
+</html>

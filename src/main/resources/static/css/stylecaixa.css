@@ -1,0 +1,127 @@
+    body {
+      font-family: 'Nunito', sans-serif;
+      margin: 0;
+      background-color: #2b2b2b;
+      color: #fff;
+    }
+
+    .container {
+      width: 90%;
+      margin: auto;
+      margin-top: 20px;
+      padding: 20px;
+      background-color: #3a3a3a;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 20px;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    .tables {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    
+    .search {
+      width: 200px;
+      padding: 12px;
+      border: 2px solid #502314;
+      border-radius: 10px;
+      font-size: 1rem;
+    }
+
+    .table-box {
+      flex: 1;
+      height: 783px;
+      background-color: #fff;
+      border-radius: 8px;
+      padding: 15px;
+      color: #333;
+    }
+
+    .table-box h3 {
+      margin-bottom: 10px;
+      color: #b22222;
+      font-size: 1rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 15px;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #f5f5f5;
+      font-weight: bold;
+    }
+
+    /* Botões estilo BK */
+    .btn {
+      border: none;
+      padding: 10px 15px;
+      font-size: 14px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn-add {
+      background-color: #f5a623; /* laranja */
+      color: #fff;
+    }
+
+    .btn-add:hover {
+      background-color: #e6951a;
+    }
+
+    .btn-cancel {
+      background-color: #c62828; /* vermelho BK */
+      color: #fff;
+    }
+
+    .btn-cancel:hover {
+      background-color: #a71d1d;
+    }
+
+    .btn-remove {
+      background-color: #6d4c41; /* marrom */
+      color: #fff;
+    }
+
+    .btn-remove:hover {
+      background-color: #5a3c33;
+    }
+
+    .btn-finish {
+      background-color: #2e7d32; /* verde */
+      color: #fff;
+    }
+
+    .btn-finish:hover {
+      background-color: #256628;
+    }
+
+    .actions {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 15px;
+    }
+    
+    .selected {
+    background-color: #d3d3d3; /* Cor de fundo para linha selecionada */
+    }

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Listagem de Vendas</title>
+    <link rel="stylesheet" href="css/stylelistar.css"> <!-- mantém o mesmo estilo -->
+</head>
+<body>
+    <div class="container">
+        <h1>📊 Vendas Realizadas</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Data</th>
+                    <th>Produtos</th>
+                    <th>Quantidade</th>
+                    <th>Total (R$)</th>
+                </tr>
+            </thead>
+            <tbody id="tabela-vendas">
+                <!-- preenchido via JS -->
+            </tbody>
+        </table>
+
+        <div class="acoes">
+            <button class="btn" onclick="window.location.href='index.html'">⬅ Voltar ao Menu</button>
+        </div>
+    </div>
+
+    <script src="js/scriptvendas.js"></script>
+</body>
+</html>

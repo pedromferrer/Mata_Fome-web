@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Listagem de Produtos</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styleslistar.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🍔 Listagem de Produtos</h1>
+
+    <!-- Campo de filtro -->
+    <div class="filter">
+      <input type="text" id="filtro" placeholder="🔍 Buscar produto...">
+    </div>
+
+    <!-- Tabela de produtos -->
+    <table id="tabela-produtos">
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>Nome</th>
+          <th>Valor</th>
+          <th>Quantidade</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>1</td><td>Coca</td><td>12,00</td><td>1</td></tr>
+        <tr><td>7</td><td>Feijão Carioca</td><td>8,30</td><td>10</td></tr>
+        <tr><td>9</td><td>Macarrão</td><td>2,70</td><td>10</td></tr>
+      </tbody>
+    </table>
+
+    <!-- Botões de ação -->
+    <div class="actions">
+      <button id="btn-excluir" class="btn">🗑 Excluir Selecionado</button>
+      <button class="btn" id="btnEditar">✏ Editar</button>
+    </div>
+  </div>
+
+  <!-- Importa o JavaScript -->
+  <script src="scriptlistar.js"></script>
+</body>
+</html>
